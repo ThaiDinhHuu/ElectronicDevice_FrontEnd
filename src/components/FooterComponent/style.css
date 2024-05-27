@@ -1,0 +1,56 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+/* Thiết lập style cho footer */
+footer {
+      background-color: #fff;
+      color: #333;
+      padding: 20px 0;
+}
+
+.container {
+      max-width: 1200px;
+      margin: 0 auto;
+}
+
+.row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+.col-md-4 {
+      width: 30%;
+}
+
+h4 {
+      color: #333;
+}
+
+ul {
+      list-style: none;
+      padding: 0;
+}
+
+ul.social-icons li {
+      display: inline-block;
+      margin-right: 10px;
+}
+
+ul.social-icons i {
+      font-size: 20px;
+}
+
+/* Style liên kết */
+a {
+      color: #333;
+      text-decoration: none;
+}
+
+a:hover {
+      color: #ffd700;
+      /* Màu khi di chuột qua */
+}
